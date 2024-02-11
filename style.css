@@ -1,0 +1,27 @@
+ul {
+  list-style: none;
+  display: none;
+}
+ul:first-child {
+  display: block;
+}
+
+.list {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.list::after {
+  content: "\25BC";
+  font-size: 70%;
+}
+
+.list-close {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.list-close::after {
+  content: "\25B2";
+  font-size: 70%;
+}
